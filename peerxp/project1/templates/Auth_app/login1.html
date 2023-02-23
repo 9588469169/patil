@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+    {% block title %}
+    <title>Login Page</title>
+    {% endblock %}
+
+    {% block content %}
+    <head>
+    <style>
+        form{
+            
+            margin-top: 50px;
+            background-color:lightpink;
+            text-align:center;
+            padding:80px;
+            width:370px;
+			height:350px;
+			border-radius:20px;
+        }
+
+    </style>
+    </head>
+
+<body >
+    <center>
+    <form method="post" novalidate>
+        {% csrf_token %}
+        
+        {% if form.non_field_errors %}
+        {% for error in form.non_field_errors %}
+        <p style="color:red">{{ error }}</p>
+        {% endfor%}
+        {% endif %}
+        {% for fm in form %}
+
+        {{fm_label_tag}} {{fm}} {{fm.errors|striptags}} <br><br>
+        
+        {% endfor %}
+        <input type="submit" value="Login"><br><br>
+        <a href="{% url 'signup_url' %}">Create Account</a>
+    </form>
+    </center>
+    
+</body>
+</html>
+    {% endblock %}

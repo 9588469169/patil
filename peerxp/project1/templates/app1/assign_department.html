@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+    {% block title %}
+    <title>Assign Department</title>
+    {% endblock %}
+
+    {% block content %}
+<body>
+<form method="post">
+  {% csrf_token %}
+
+  <label for="department">Department:</label>
+  <select id="department" name="department">
+    {% for department in departments %}
+      <option value="{{ department.id }}">{{ department.name }}</option>
+    {% endfor %}
+  </select>
+  <input type="submit" value="Assign">
+</form>
+
+</body>
+    {% endblock %}

@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+    {% block title %}
+    <title>Department_list</title>
+    {% endblock %}
+
+
+    {% block content %}
+<body align="center" >
+<form action="" align="center">
+<table class="table table-dark"><br>
+    <h1>ALL DEPARTMENTS</h1><br>
+  <thead>
+    <tr class="table-active">
+        <th colspan="2" class="table-active">Department ID</th>
+      <th colspan="2" class="table-active">Name</th>
+      <th colspan="2" class="table-active">Description</th>
+        <th colspan="2" class="table-active">Created By</th>
+        <th colspan="2" class="table-active">Created At</th>
+        <th colspan="2" class="table-active">Last Update At</th>
+         <th colspan="2" class="table-active">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for department in departments %}
+      <tr class="table-active">
+          <td colspan="2" class="table-active">{{ department.id }}</td>
+        <td colspan="2" class="table-active">{{ department.name }}</td>
+        <td colspan="2" class="table-active">{{ department.description }}</td>
+        <td colspan="2" class="table-active">{{department.created_by}}</td>
+          <td colspan="2" class="table-active">{{department.created_at}}</td>
+          <td colspan="2" class="table-active">{{department.last_updated_at}}</td>
+          <td colspan="2" class="table-active"><button class="btn btn-success"><a href="{% url 'update_department' department.pk %}">Update</a></button>
+            <button class="btn btn-danger"><a href="{% url 'delete_department' department.pk %}" onclick="return confirm('Are you sure you want to delete this department?');">Delete</a></button></td>
+      </tr>
+
+    {% endfor %}
+  </tbody>
+</table>
+    </form>
+</body>
+    {% endblock %}
+
+
