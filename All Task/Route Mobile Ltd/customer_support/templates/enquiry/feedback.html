@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Service Provider Feedback</h1>
+  <p><strong>Enquiry:</strong> {{ enquiry.query }}</p>
+  <form method="post">
+    {% csrf_token %}
+    <label for="response">Response:</label><br>
+    <textarea id="response" name="response" rows="10">{{ enquiry.response }}</textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+{% endblock %}

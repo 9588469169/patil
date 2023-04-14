@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+    {% block title %}
+    <title>User Data</title>
+    {% endblock %}
+
+    {% block content %}
+<body align="center">
+<form action="" align="center"><br>
+    <h1 style="color:purple" >USER_DATA </h1><br>
+    <table class="table table-dark">
+        <tr class="table-active">
+            <th colspan="2" class="table-active">Name</th>
+            <th colspan="2" class="table-active">Email</th>
+            <th colspan="2" class="table-active">Phone Number</th>
+            <th colspan="2" class="table-active">Departement</th>
+            <th colspan="2" class="table-active">Role</th>
+        </tr>
+        {% for i in user_data%}
+        <tr class="table-active">
+            <td colspan="2" class="table-active">{{i.name}}</td>
+            <td colspan="2" class="table-active">{{i.email}}</td>
+            <td colspan="2" class="table-active">{{i.phone_number}}</td>
+            <td colspan="2" class="table-active">{{i.department}}</td>
+            <td colspan="2" class="table-active">{{i.role}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</form>
+
+</body>
+    {% endblock %}
+
+

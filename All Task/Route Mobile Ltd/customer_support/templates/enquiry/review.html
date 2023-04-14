@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Customer Review</h1>
+  <p>Were you satisfied with our response to your enquiry?</p>
+  <form method="post">
+    {% csrf_token %}
+    <input type="radio" id="satisfied_yes" name="satisfied" value="yes" required>
+    <label for="satisfied_yes">Yes</label><br>
+    <input type="radio" id="satisfied_no" name="satisfied" value="no">
+    <label for="satisfied_no">No</label><br>
+    <button type="submit">Submit</button>
+  </form>
+{% endblock %}

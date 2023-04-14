@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table class="table", border="2px">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">content</th>
+            <th scope="col">Owner</th>
+            <th scope="col">Public Status</th>
+            <th scope="col">Update</th>
+            <th scope="col">Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for i in post%}
+          <tr>
+            <th scope="row">{{i.id}}</th>
+            <td>{{i.title}}</td>
+            <td>{{i.content}}</td>
+            <td>{{i.owner}}</td>
+            <td>{{i.is_public}}</td>
+            <td><button><a href="{% url 'post_update' i.pk %}">Update</a></button></td>
+            <td><button><a href="{% url 'post_delete' i.pk %}">Delete</a></button></td>
+          </tr>
+            {% endfor %}
+        </tbody>
+      </table>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+    {% block title %}
+    <title>CREATE DEPARTMENT</title>
+    {% endblock %}
+
+    {% block content %}
+<body class="container">
+<form action="" method="post" align="center"><br>
+        <h2>CREATE DEPARTMENT</h2><br>
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Submit">
+</form>
+</body>
+    {% endblock %}

@@ -1,0 +1,41 @@
+2023-03-27 13:52:10,939 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\autoreload.py 677  autoreload 18780 Watching for file changes with StatReloader
+2023-03-27 13:52:20,532 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\log.py 241  log 18780 Not Found: /
+2023-03-27 13:52:20,532 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 18780 "GET / HTTP/1.1" 404 2177
+2023-03-27 13:52:20,596 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\log.py 241  log 18780 Not Found: /favicon.ico
+2023-03-27 13:52:20,596 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 18780 "GET /favicon.ico HTTP/1.1" 404 2228
+2023-03-27 13:52:29,696 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 18780 "GET /project/enquiry/ HTTP/1.1" 200 1173
+2023-03-27 13:53:05,246 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\autoreload.py 266  autoreload 18780 C:\Users\Gokul Patil\OneDrive\Desktop\Route Mobile Ltd\customer_support\customer_support\settings.py changed, reloading.
+2023-03-27 13:53:06,057 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\autoreload.py 677  autoreload 18472 Watching for file changes with StatReloader
+2023-03-27 13:53:16,952 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\autoreload.py 266  autoreload 18472 C:\Users\Gokul Patil\OneDrive\Desktop\Route Mobile Ltd\customer_support\customer_support\settings.py changed, reloading.
+2023-03-27 13:53:32,330 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\autoreload.py 677  autoreload 2116 Watching for file changes with StatReloader
+2023-03-27 13:53:39,769 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\log.py 241  log 2116 Not Found: /
+2023-03-27 13:53:39,769 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 2116 "GET / HTTP/1.1" 404 2177
+2023-04-12 17:29:15,411 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\autoreload.py 677  autoreload 12720 Watching for file changes with StatReloader
+2023-04-12 17:29:18,796 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\log.py 241  log 12720 Not Found: /
+2023-04-12 17:29:18,803 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET / HTTP/1.1" 404 2177
+2023-04-12 17:29:19,076 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\log.py 241  log 12720 Not Found: /favicon.ico
+2023-04-12 17:29:19,078 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /favicon.ico HTTP/1.1" 404 2228
+2023-04-12 17:29:21,203 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/ HTTP/1.1" 302 0
+2023-04-12 17:29:21,297 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+2023-04-12 17:29:21,392 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/ HTTP/1.1" 302 0
+2023-04-12 17:29:21,425 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+2023-04-12 17:29:27,380 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-04-12 17:29:27,436 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/ HTTP/1.1" 200 6440
+2023-04-12 17:29:27,529 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2023-04-12 17:29:29,370 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/auth/group/ HTTP/1.1" 200 5417
+2023-04-12 17:29:29,408 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-04-12 17:29:29,982 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/auth/user/ HTTP/1.1" 200 8491
+2023-04-12 17:29:30,014 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-04-12 17:29:33,965 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/enquiry/enquiry/ HTTP/1.1" 200 8134
+2023-04-12 17:29:33,983 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-04-12 17:29:35,519 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/enquiry/enquiry/add/ HTTP/1.1" 200 7251
+2023-04-12 17:29:35,552 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-04-12 17:32:51,939 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\log.py 241  log 12720 Not Found: /
+2023-04-12 17:32:51,940 WARNING  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET / HTTP/1.1" 404 2177
+2023-04-12 17:32:59,646 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /project/enquiry/ HTTP/1.1" 200 1173
+2023-04-12 17:38:30,162 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/enquiry/enquiry/ HTTP/1.1" 200 8134
+2023-04-12 17:38:30,178 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-04-12 17:38:33,000 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/auth/user/ HTTP/1.1" 200 8491
+2023-04-12 17:38:33,017 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-04-12 17:38:33,870 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/auth/group/ HTTP/1.1" 200 5417
+2023-04-12 17:38:33,887 INFO  C:\Users\Gokul Patil\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\servers\basehttp.py 187  basehttp 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
